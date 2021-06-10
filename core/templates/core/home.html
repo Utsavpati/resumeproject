@@ -1,0 +1,26 @@
+{% extends 'core/base.html' %}
+{% load static %}
+{% block content %}
+<div class='mt-5'>
+  <div class='text-center'>
+  <img src="{% static 'core/images/name.jpg' %}" width='200px' height='150px' class="img-fluid mt-5">
+  </div>
+  <div class='text-white mt-5 mx-5 text-justify'>
+   <h1 class='st-font'>Hello,</h1>
+    <div class='px-4' style='line-height:2rem;'>
+      <p style='text-indent:100px ; text-align:justify;'><b class='text-warning'>Lorem ipsum</b> dolor sit amet, consectetur adipiscing elit. Maecenas bibendum sed felis eget congue. In porttitor consequat
+      mauris et volutpat. Sed est libero, congue id risus a, pharetra fringilla magna. Quisque vitae ullamcorper nunc. Donec
+      et sapien eleifend, molestie diam vitae, pulvinar sapien. Phasellus nec ipsum interdum, egestas est eu, facilisis felis.
+      Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras blandit nibh id leo
+      convallis, quis interdum odio volutpat. Suspendisse potenti. Duis dignissim leo ac nisi molestie ultricies tincidunt
+      efficitur nisl. Fusce id purus condimentum tortor feugiat interdum ut at diam. Nam at sodales ipsum. Duis orci dui,
+      mattis eget lacinia vel, ornare eu magna. Cras congue quam odio.</p>
+    </div>
+  </div>
+  <div class='text-center'>
+      <a href="" class="btn btn-outline-warning mr-5 my-3">Hire Me</a>
+      <a href="" class="btn btn-outline-info my-3 offset-sm-1">Contact</a>
+  </div>
+</div>
+
+{% endblock content %}
